@@ -6,3 +6,7 @@ m:
 
 gh:
 	git add -A; git commit -m "`uname` - `date`"; git push;
+
+fetch:
+	make -C pynotebooks
+
