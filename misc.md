@@ -132,3 +132,5 @@ To create a Caffe model you need to define the model architecture in a protocol 
 refs and see also
 
 -   [caffe/caffe.proto at master · BVLC/caffe](https://github.com/BVLC/caffe/blob/master/src/caffe/proto/caffe.proto)
+
+[Caffe | Feature extraction with Caffe C++ code.](http://caffe.berkeleyvision.org/gathered/examples/feature_extraction.html)
