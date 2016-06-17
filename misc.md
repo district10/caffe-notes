@@ -6,11 +6,12 @@
 
     +   [Nets, Layers, and Blobs](http://caffe.berkeleyvision.org/tutorial/net_layer_blob.html): the anatomy of a Caffe model. `@`{.fold}
 
-        :   在 caffe 的模型里，layer 是一层层定义，从下往上是 data to loss 的过程。数据和其导数在网络层中前后传播，
-            通过的就是 blob，它既是 array，又是 unified memeroy interface for the network（就像 struct）。
+        :   在 caffe 的模型里，layer 是一层层定义，从下往上是 data to loss 的过
+            程。数据和其导数在网络层中前后传播，通过的就是 blob，它既是 array，
+            又是 unified memeroy interface for the network（就像 struct）。
 
-            层（layer）是来自“模型”和“计算”。
-            网（net）来自 layer 和 layer 的连接。
+            *   层（layer）是来自“模型”和“计算”。
+            *   网（net）来自 layer 和 layer 的连接。
 
             说 blob，就是说它如何在 layer 和 net 里存储和沟通（communicate）。
 
