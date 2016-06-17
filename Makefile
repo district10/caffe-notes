@@ -1,7 +1,7 @@
-PANDOCOPTIONS := -s -S --ascii -c http://tangzx.qiniudn.com/main.css \
-	-f markdown+east_asian_line_breaks
+SRC := $(wildcard *.md)
+DST := $(SRC:%.md=publish/%.html)
 
-all: publish/misc.html
+all: $(DST)
 clean:
 	rm -rf publish
 gh:
@@ -16,4 +16,7 @@ m:
 
 publish/%.html: %.md
 	mkdir -p $(@D)
-	pandoc $(PANDOCOPTIONS) $< -o $@
+	pandoc \
+		-s -S --ascii -c http://tangzx.qiniudn.com/main.css \
+		-f markdown+east_asian_line_breaks \
+		$< -o $@
