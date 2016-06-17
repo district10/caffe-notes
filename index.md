@@ -1,3 +1,3 @@
 # Caffe 笔记
 
--   [未归类笔记](misc.html)
+-   [暂未归类笔记](misc.html)
