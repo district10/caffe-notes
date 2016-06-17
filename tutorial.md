@@ -10,7 +10,7 @@
         +   Openness: scientific and applied progress call for common code, reference models, and reproducibility.
         +   Community: academic research, startup prototypes, and industrial applications all share strength by joint discussion and development in a BSD-2 project.
 
--   Tour `@.fold`
+-   Tour `@`{.fold}
 
     :   +   [Nets, Layers, and Blobs](http://caffe.berkeleyvision.org/tutorial/net_layer_blob.html): the anatomy of a Caffe model. `@`{.fold}
 
@@ -162,7 +162,7 @@
 
         +   [Forward / Backward](http://caffe.berkeleyvision.org/tutorial/forward_backward.html): the essential computations of layered compositional models. `@`{.fold}
 
-            :   ![](http://caffe.berkeleyvision.org/tutorial/fig/forward_backward.png)
+            :   ![](http://caffe.berkeleyvision.org/tutorial/fig/forward_backward.png){width=200px}
 
                 ![](http://caffe.berkeleyvision.org/tutorial/fig/forward.jpg)
                 ![](http://caffe.berkeleyvision.org/tutorial/fig/backward.jpg)
@@ -539,9 +539,9 @@
 
                 -   Multiple Inputs
 
--   Deeper Learning
+-   Deeper Learning `@`{.fold}
 
-    some tutorial on deeper learning.
+    :   some tutorial on deeper learning.
 
 ---
 
